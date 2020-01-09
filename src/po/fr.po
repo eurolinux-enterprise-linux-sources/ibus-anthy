@@ -1,0 +1,584 @@
+# French translation of ibus-anthy.
+# Copyright (C) 2008 Peng Huang <shawn.p.huang@gmail.com>
+# Copyright (C) 1999-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the ibus-anthy package.
+#
+# UTUMI Hirosi <utuhiro78@yahoo.co.jp>, 2008.
+# Humbert Julien <julroy67@gmail.com>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: ibus-anthy 1.2\n"
+"Report-Msgid-Bugs-To: http://code.google.com/p/ibus/issues/entry\n"
+"POT-Creation-Date: 2010-03-11 22:39+0900\n"
+"PO-Revision-Date: 2010-03-12 18:59+0100\n"
+"Last-Translator: Julien <julroy67@gmail.com>\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../engine/engine.py:176
+msgid "Switch input mode"
+msgstr "Changer de méthode d'entrée"
+
+#: ../engine/engine.py:182
+msgid "Hiragana"
+msgstr "Hiragana"
+
+#: ../engine/engine.py:185
+msgid "Katakana"
+msgstr "Katakana"
+
+#: ../engine/engine.py:188
+msgid "Half width katakana"
+msgstr "Half width katakana"
+
+#: ../engine/engine.py:191
+msgid "Latin"
+msgstr "Latin"
+
+#: ../engine/engine.py:194
+msgid "Wide Latin"
+msgstr "Latin large"
+
+#: ../engine/engine.py:208
+msgid "Switch typing mode"
+msgstr "Changer de méthode d'écriture"
+
+#: ../engine/engine.py:214
+msgid "Romaji"
+msgstr "Romaji"
+
+#: ../engine/engine.py:217
+msgid "Kana"
+msgstr "Kana"
+
+#: ../engine/engine.py:220
+msgid "Thumb shift"
+msgstr "Thumb shift"
+
+#: ../engine/engine.py:233
+msgid "Configure Anthy"
+msgstr "Configurer Anthy"
+
+#: ../engine/engine.py:253
+msgid "Switch conversion mode"
+msgstr "Changer de méthode de conversion"
+
+#: ../engine/engine.py:259
+msgid "Multiple segment"
+msgstr "Segments multiples"
+
+#: ../engine/engine.py:262
+msgid "Single segment"
+msgstr "Segments simples"
+
+#: ../engine/engine.py:265
+msgid "Immediate conversion (Multiple segment)"
+msgstr "Conversion immédiate (Segments multiples)"
+
+#: ../engine/engine.py:268
+msgid "Immediate conversion (Single segment)"
+msgstr "Conversion immédiate (Segments simples)"
+
+#: ../engine/engine.py:283
+msgid "Switch Dictionary"
+msgstr "Changer de dictionnaire"
+
+#. Translators: "Dic" means 'dictionary', One kanji may be good.
+#: ../engine/engine.py:329
+msgid "Dic"
+msgstr "Dico"
+
+#: ../engine/engine.py:336
+msgid "Configure dictionaries"
+msgstr "Configurer les dictionnaires"
+
+#: ../engine/engine.py:341
+msgid "Edit dictionaries"
+msgstr "Éditer les dictionnaires"
+
+#: ../engine/engine.py:343
+msgid "Launch the dictionary tool"
+msgstr "Lancer l'utilitaire d'édition du dictionnaire"
+
+#: ../engine/engine.py:346
+msgid "Add words"
+msgstr "Ajouter de nouveaux mots"
+
+#: ../engine/engine.py:348
+msgid "Add words in the dictionary"
+msgstr "Ajouter de nouveaux mots dans le dictionnaire"
+
+#: ../engine/factory.py:35
+msgid "Anthy"
+msgstr "Anthy"
+
+#: ../setup/anthyprefs.py:215
+msgid "General"
+msgstr "Général"
+
+#: ../setup/anthyprefs.py:226
+msgid "Zip Code Conversion"
+msgstr "Conversion de Codes Postaux"
+
+#: ../setup/anthyprefs.py:238
+msgid "Symbol"
+msgstr "Symboles"
+
+#: ../setup/main.py:85
+msgid "Command"
+msgstr "Commande"
+
+#: ../setup/main.py:89
+msgid "Shortcut"
+msgstr "Raccourci"
+
+#: ../setup/main.py:130
+msgid "Description"
+msgstr "Description"
+
+#. Translators: "Embd" means a short word of 'embedded'.
+#: ../setup/main.py:138
+msgid "Embd"
+msgstr "Embarqué"
+
+#. Translators: "Sgl" means a short word of 'single'.
+#: ../setup/main.py:146
+msgid "Sgl"
+msgstr "Seul"
+
+#: ../setup/main.py:301
+msgid "Your choosed file has already been added: "
+msgstr "Le fichier que vous avez selectionné a déjà été ajouté : "
+
+#: ../setup/main.py:305
+msgid "Your choosed file does not exist: "
+msgstr "Le fichier que vous avez selectionné n'existe pas : "
+
+#: ../setup/main.py:309
+msgid "Your choosed file is a directory: "
+msgstr "Le fichier que vous avez selectionné est un dossier : "
+
+#: ../setup/main.py:313
+msgid "You cannot add dictionaries in the anthy private directory: "
+msgstr ""
+"Vous ne pouvez pas ajouter de dictionnaire dans le dossier privé d'Anthy : "
+
+#: ../setup/main.py:320
+msgid "Your file path is not good: "
+msgstr "Le chemin du fichier selectionné est incorrect : "
+
+#: ../setup/main.py:480
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: ../setup/main.py:481
+msgid "Are you sure to close Setup?"
+msgstr "Êtes-vous sûr de vouloir fermer la fenêtre de configuration ?"
+
+#: ../setup/main.py:494
+msgid "Notice!"
+msgstr "Attention !"
+
+#: ../setup/main.py:495
+msgid "Are you sure to close Setup without save configure?"
+msgstr ""
+"Êtes-vous sûr de fermer la fenêtre de configuration sans sauver les "
+"modifications ?"
+
+#: ../setup/main.py:597 ../setup/main.py:683
+msgid "Your file does not exist: "
+msgstr "Le fichier que vous avez selectionné n'existe pas : "
+
+#: ../setup/main.py:607
+msgid "Open Dictionary File"
+msgstr "Ouvrir un fichier de dictionnaire"
+
+#: ../setup/main.py:613
+msgid "Edit Dictionary File"
+msgstr "Éditer le fichier de dictionnaire"
+
+#: ../setup/main.py:627
+msgid "Your choosed file is not correct."
+msgstr "Le fichier que vous avez selectionné est incorrect."
+
+#: ../setup/main.py:656
+msgid "You cannot delete the system dictionary."
+msgstr "Vous ne pouvez pas supprimer le dictionnaire système."
+
+#: ../setup/main.py:679
+msgid "Your file is not good."
+msgstr "Le fichier que vous avez selectionné n'est pas bon."
+
+#: ../setup/main.py:708
+msgid "View Dictionary File"
+msgstr "Voir le fichier de dictionnaire"
+
+#: ../setup/main.py:839
+msgid "Please press a key (or a key combination)"
+msgstr "Veuillez appuyer sur une touche (ou une combinaison de touches)"
+
+#: ../setup/main.py:840
+msgid "The dialog will be closed when the key is released"
+msgstr "La fenêtre se fermera lorsque la touche sera relâchée"
+
+#: ../setup/main.py:859 ../setup/main.py:879
+msgid "Invalid keysym"
+msgstr "« keysym » invalide"
+
+#: ../setup/main.py:860 ../setup/main.py:880
+msgid "This keysym is not valid"
+msgstr "Le « keysym » est invalide"
+
+#: ../setup/setup.glade.h:1
+msgid "'～', 『', '¢', '£' and so on can be output with Thumb Shift key"
+msgstr ""
+"'～', 『', '¢', '£', etc. peuvent être tapées avec la méthode Thumb Shift"
+
+#: ../setup/setup.glade.h:2
+msgid "<b>Behavior</b>"
+msgstr "<b>Comportement</b>"
+
+#: ../setup/setup.glade.h:3
+msgid "<b>Default Dictionary Configuration</b>"
+msgstr "<b>Configuration du Dictionnaire par Défaut</b>"
+
+#: ../setup/setup.glade.h:4
+msgid "<b>Extended Dictionaries</b>"
+msgstr "<b>Dictionnaires supplémentaires</b>"
+
+#: ../setup/setup.glade.h:5
+msgid "<b>Initial Setting</b>"
+msgstr "<b>Configuration initiale</b>"
+
+#: ../setup/setup.glade.h:6
+msgid "<b>Other</b>"
+msgstr "<b>Autres options</b>"
+
+#: ../setup/setup.glade.h:7
+msgid "<b>Thumb Shift Layout</b>"
+msgstr "<b>Disposition Thumb Shift</b>"
+
+#: ../setup/setup.glade.h:8
+msgid ""
+"<span size='xx-large'><b>IBus-Anthy</b></span>\n"
+"\n"
+"<big>The Anthy engine for IBus input platform</big>\n"
+"\n"
+"URL : http://code.google.com/p/ibus/\n"
+"\n"
+msgstr ""
+"<span size='xx-large'><b>IBus-Anthy</b></span>\n"
+"\n"
+"<big>The Anthy engine for IBus input platform</big>\n"
+"\n"
+"URL : http://code.google.com/p/ibus/\n"
+"\n"
+
+#: ../setup/setup.glade.h:15
+msgid "A_lternate"
+msgstr "A_lternatif"
+
+#: ../setup/setup.glade.h:16
+msgid "Abo_ut"
+msgstr "À _propos"
+
+#: ../setup/setup.glade.h:17
+msgid "Adjust IM layout to XKB layout"
+msgstr "Utilise la disposition clavier utilisée dans XKB pour l'IME"
+
+#: ../setup/setup.glade.h:18
+msgid "Adjust _input method layout to system keyboard layout"
+msgstr ""
+"Utiliser la di_sposition clavier système comme disposition pour la méthode "
+"d'entrée"
+
+#: ../setup/setup.glade.h:19
+msgid "Behavior on _Focus Out:"
+msgstr "Comportement à la perte du _Focus :"
+
+#: ../setup/setup.glade.h:20
+msgid "Candidate _Window Page Size:"
+msgstr "_Taille de la fenêtre de la liste des candidats :"
+
+#: ../setup/setup.glade.h:21
+msgid ""
+"Clear\n"
+"Commit\n"
+"Hold\n"
+msgstr ""
+"Effacer\n"
+"Valider\n"
+"Garder\n"
+
+#: ../setup/setup.glade.h:25
+msgid "Co_ntrol"
+msgstr "Co_ntrol"
+
+#: ../setup/setup.glade.h:26
+msgid "Con_vert spaces with the one column width"
+msgstr "Convertir les _espaces en espaces d'une seule colonne de largeur"
+
+#: ../setup/setup.glade.h:27
+msgid "Conversion _Mode:"
+msgstr "Mode de _Conversion :"
+
+#: ../setup/setup.glade.h:28
+msgid "Convert _numbers with the one column width"
+msgstr "Convertir les ch_iffres en chiffres d'une seule colonne de largeur"
+
+#: ../setup/setup.glade.h:29
+msgid "Convert _symbols with the one column width"
+msgstr "Convertir les s_ymboles en symboles d'une seule colonne de largeur"
+
+#: ../setup/setup.glade.h:30
+msgid "De_fault"
+msgstr "Dé_faut"
+
+#: ../setup/setup.glade.h:31
+msgid ""
+"Default\n"
+"ATOK\n"
+"Wnn\n"
+msgstr ""
+"Par Défaut\n"
+"ATOK\n"
+"Wnn\n"
+
+#: ../setup/setup.glade.h:35
+msgid "Dictionar_y"
+msgstr "_Dictionnaire"
+
+#: ../setup/setup.glade.h:36
+msgid ""
+"Do Nothing\n"
+"Auto Convert"
+msgstr ""
+"Ne rien faire\n"
+"Convertir automatiquement"
+
+#: ../setup/setup.glade.h:38
+msgid "Edit Shortcut"
+msgstr "Éditer le raccourci"
+
+#: ../setup/setup.glade.h:39
+msgid "Enable the _reverse conversion"
+msgstr "Activer la conversion inversée"
+
+#: ../setup/setup.glade.h:40
+msgid ""
+"Hiragana\n"
+"Katakana\n"
+"Half Width Katakana\n"
+"Latin\n"
+"Wide Latin"
+msgstr ""
+"Hiragana\n"
+"Katakana\n"
+"Half Width Katakana\n"
+"Latin\n"
+"Latin large"
+
+#: ../setup/setup.glade.h:45
+msgid "Input _Method Layout:"
+msgstr "Disposition de la _Méthode d'entrée :"
+
+#: ../setup/setup.glade.h:46
+msgid ""
+"Keep Numpad Codes\n"
+"Convert Characters\n"
+msgstr ""
+"Conserver les codes du pavé numérique\n"
+"Convertir les caractères\n"
+
+#: ../setup/setup.glade.h:49
+msgid "Key Code:"
+msgstr "Touche :"
+
+#: ../setup/setup.glade.h:50
+msgid "Key bin_ding"
+msgstr "_Raccourcis claviers"
+
+#: ../setup/setup.glade.h:51
+msgid "Modifier:"
+msgstr "Modificateur :"
+
+#: ../setup/setup.glade.h:52
+msgid ""
+"Multiple segment\n"
+"Single segment\n"
+"Immediate conversion (Multiple segment)\n"
+"Immediate conversion (Single segment)"
+msgstr ""
+"Segments multiples\n"
+"Segments simples\n"
+"Conversion immédiate (Segments multiples)\n"
+"Conversion immédiate (Segments simples)"
+
+#: ../setup/setup.glade.h:56
+msgid ""
+"NICOLA-J\n"
+"NICOLA-A\n"
+"NICOLA-F"
+msgstr ""
+"NICOLA-J\n"
+"NICOLA-A\n"
+"NICOLA-F"
+
+#: ../setup/setup.glade.h:59
+msgid ""
+"None\n"
+"FMV KB231 key extension\n"
+"FMV KB611 key extension"
+msgstr ""
+"Aucun\n"
+"FMV KB231 key extension\n"
+"FMV KB611 key extension"
+
+#: ../setup/setup.glade.h:62
+msgid "Numpad _Key Type:"
+msgstr "Touches du Pa_vé Numérique :"
+
+#: ../setup/setup.glade.h:63
+msgid "Restart ibus when you change XKB"
+msgstr "Redémarrez ibus lorsque vous changer la configuration dans XKB"
+
+#: ../setup/setup.glade.h:64
+msgid "Restart ibus when you change the keyboard layout."
+msgstr "Redémarrez ibus lorsque vous changer la disposition clavier système."
+
+#: ../setup/setup.glade.h:65
+msgid ""
+"Romaji\n"
+"Kana\n"
+"Thumb shift"
+msgstr ""
+"Romaji\n"
+"Kana\n"
+"Thumb shift"
+
+#: ../setup/setup.glade.h:68
+msgid "Seion + Shift can output Handakuon"
+msgstr "Seion + Majuscule peut imprimer Handakuon"
+
+#: ../setup/setup.glade.h:69
+msgid "Setup - IBus-Anthy"
+msgstr "Configuration – IBus-Anthy"
+
+#: ../setup/setup.glade.h:70
+msgid ""
+"Strongly recommend to enable \"Use system keyboard layout\" check button in "
+"\"Advanced\" tab using 'ibus-setup' command"
+msgstr ""
+"Il est fortement recommandé de cocher la case pour l'option « Utiliser la "
+"disposition clavier système » dans l'onglet « Avancé » en utilisant la "
+"commande « ibus-setup »"
+
+#: ../setup/setup.glade.h:71
+msgid "Symbo_l Style:"
+msgstr "Style de _Symboles :"
+
+#: ../setup/setup.glade.h:72
+msgid "Thumb S_hift"
+msgstr "_Thumb Shift"
+
+#: ../setup/setup.glade.h:73
+msgid "Thumb Shift _Left Key:"
+msgstr "Touche G_auche pour la méthode Thumb Shift :"
+
+#: ../setup/setup.glade.h:74
+msgid "You can change the order on language bar"
+msgstr "Vous pouvez changer l'odre dans la barre de langue"
+
+#: ../setup/setup.glade.h:75
+msgid ""
+"You do not have to reconfigure XKB since this option changes IM layout only "
+"with IM on."
+msgstr ""
+"Vous n'avez pas besoin de reconfigurer XKB, puisque cette option ne change "
+"que la disposition de l'IME lorsque l'IME est activé."
+
+#: ../setup/setup.glade.h:76
+msgid ""
+"You do not have to reconfigure the system keyboard layout for \"Additional "
+"Key Arrangement\" since this option changes input method layout only in case "
+"input method is turned on."
+msgstr ""
+"Vous n'avez pas besoin de reconfigurer la disposition clavier système pour "
+"profiter des « Arrangement des Touches Additionnelles », puisque cette "
+"option ne change la disposition de la méthode d'entrée que lorsque la "
+"méthode d'entrée est activée."
+
+#: ../setup/setup.glade.h:77
+msgid "_Add Word Command:"
+msgstr "Commande permettant l'a_jout d'un mot :"
+
+#: ../setup/setup.glade.h:78
+msgid "_Additional Key Arrangement:"
+msgstr "_Arrangement des Touches Additionnelles :"
+
+#: ../setup/setup.glade.h:79
+msgid "_Behavior on Period:"
+msgstr "Comportement _lors de la ponctuation :"
+
+#: ../setup/setup.glade.h:80
+msgid "_Description:"
+msgstr "_Description :"
+
+#: ../setup/setup.glade.h:81
+msgid "_Edit Dictionary Command:"
+msgstr "Commande permettant l'éd_ition du Dictionnaire :"
+
+#: ../setup/setup.glade.h:82
+msgid "_Embed your dictionary in the system dictionary"
+msgstr "Inclur_e votre dictionnaire dans le dictionnaire système"
+
+#: ../setup/setup.glade.h:83
+msgid "_Enable semi-voiced sound mark with Shift key"
+msgstr "Activer les « semi-_voiced sound mark » avec la touche Majuscule"
+
+#: ../setup/setup.glade.h:84
+msgid "_General"
+msgstr "_Général"
+
+#: ../setup/setup.glade.h:85
+msgid "_Input Mode:"
+msgstr "Méthode d'E_ntrée :"
+
+#: ../setup/setup.glade.h:86
+msgid "_Period Style:"
+msgstr "Style de _Ponctuation :"
+
+#: ../setup/setup.glade.h:87
+msgid "_Shift"
+msgstr "_Majuscule"
+
+#: ../setup/setup.glade.h:88
+msgid "_Short Label:"
+msgstr "_Label court :"
+
+#: ../setup/setup.glade.h:89
+msgid "_Shortcut Type:"
+msgstr "Raccourcis _claviers :"
+
+#: ../setup/setup.glade.h:90
+msgid "_Thumb Shift Right Key:"
+msgstr "Touche Dr_oite pour la méthode Thumb Shift :"
+
+#: ../setup/setup.glade.h:91
+msgid "_Typing Method:"
+msgstr "Méthode d'Éc_riture :"
+
+#: ../setup/setup.glade.h:92
+msgid "_Use your dictionary alone with switching dictionaries"
+msgstr ""
+"_Utiliser votre dictionnaire seul lors du basculement des dictionnaires"
+
+#: ../setup/setup.glade.h:93
+msgid "_View"
+msgstr "_Voir"
+
+
