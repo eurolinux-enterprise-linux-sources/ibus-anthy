@@ -3,7 +3,7 @@
 %define require_pygtk2_version 2.15.2
 Name:       ibus-anthy
 Version:    1.2.1
-Release:    1%{?dist}
+Release:    3%{?dist}
 Summary:    The Anthy engine for IBus input platform
 License:    GPLv2+
 Group:      System Environment/Libraries
@@ -40,6 +40,7 @@ cp %SOURCE1 icons
 %patch0 -p1
 
 %build
+export CFLAGS=${CFLAGS:-'%optflags -fno-strict-aliasing'}
 %configure --disable-static
 # make -C po update-gmo
 make %{?_smp_mflags}
@@ -65,6 +66,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/ibus/component/*
 
 %changelog
+* Mon Aug 01 2011 Takao Fujiwara <takao.fujiwara1@gmail.com> - 1.2.1-3
+- Fixed Bug 661597 - the latest page_size for ibus.LookupTable.
+- Added -fno-strict-aliasing option in CFLAGS for rpmdiff
+
 * Fri Apr 23 2010 Takao Fujiwara <takao.fujiwara1@gmail.com> - 1.2.1-1
 - Update to 1.2.1
 
